@@ -166,7 +166,7 @@ body {
             const eerieSound = new Audio('male-laughing-sound-effect-241417.mp3');
             eerieSound.loop = true;
             eerieSound.play();
-        }, 4000);
+        }, 10000);
     
         elements.forEach((element) => {
             // Apply the shake effect first (this happens immediately when the button is clicked)
@@ -199,7 +199,7 @@ body {
             message.style.textAlign = 'center';
             message.style.fontFamily = 'Courier New', 'Courier', 'monospace';
             document.body.appendChild(message);
-        }, 11000); // Show the message 1 second before the reload
+        }, 10000); // Show the message 1 second before the reload
     
         // Reset the page after the animation finishes
         setTimeout(() => {
